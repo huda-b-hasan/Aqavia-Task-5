@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        <BrowserRouter>
+        <BrowserRouter basename='/Aqavia-Task-5/'>
           <AppRoutes />
         </BrowserRouter>
       </ThemeProvider>
