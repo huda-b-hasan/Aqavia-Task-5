@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import {  HashRouter } from 'react-router-dom'
 import './App.css'
 import { ThemeProvider } from './context/ColorContext'
 import AdminLayout from './layouts/AdminLayout'
@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        <BrowserRouter basename='/Aqavia-Task-5/'>
+        <HashRouter >
           <AppRoutes />
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>
     </>
   )
